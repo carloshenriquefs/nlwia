@@ -1,9 +1,10 @@
 import { server } from "./server.js"
+
 const form = document.querySelector("#form")
 const input = document.querySelector("#url")
 const content = document.querySelector("#content")
 
-form.addEventListener("submit", async (event) => {
+form.addEventListener("submit", async event => {
   event.preventDefault()
   content.classList.add("placeholder")
 
@@ -23,7 +24,7 @@ form.addEventListener("submit", async (event) => {
   content.textContent = "Realizando o resumo..."
 
   const summary = await server.post("/summary", {
-    text: transcription.data.result,
+    text: transcription.data.result
   })
 
   content.textContent = summary.data.result

@@ -1,6 +1,5 @@
 import ytdl from "ytdl-core"
 import fs from "fs"
-import { resolve } from "path"
 
 export const download = (videoId) =>
   new Promise((resolve, reject) => {
@@ -8,7 +7,7 @@ export const download = (videoId) =>
     console.log("Realizando o download do video:", videoId)
 
     ytdl(videoURL, { quality: "lowestaudio", filter: "audioonly" })
-      .on("info", (info) => {
+      .on("info", info => {
         const seconds = info.formats[0].approxDurationMs / 1000
 
         if (seconds > 60) {
