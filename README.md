@@ -1,13 +1,12 @@
-![nlw](https://github.com/carloshenriquefs/nlwia/assets/54969405/767152ee-cdda-428d-99ee-1dd120e74677)
-
 <h1 align="center">
-NLW IA - Shorts Summary 
+  NLW IA - Shorts Summary 
 </h1>
 
+![nlw](https://github.com/carloshenriquefs/nlwia/assets/54969405/767152ee-cdda-428d-99ee-1dd120e74677)
 
+##
 
-
-## Faça um resumo do seu vídeo favorito do shorts (YouTube) com esta aplicação.
+## Faça um resumo do seu vídeo favorito do shorts (YouTube).
 
 <a href="https://www.rocketseat.com.br/" target="_blank"><img src="https://img.shields.io/static/v1?label=NLW IA&message=Rocketseat&color=7159c1&style=for-the-badge&logo=ghost"/></a>
 <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/HTML5%20-%20a?style=for-the-badge&logo=html5&color=2d3436"></a>
